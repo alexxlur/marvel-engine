@@ -1,89 +1,68 @@
 # Vamos a grabar un vídeo
 
 ## Trigger
-
-Activate this workflow when the user says:
-
+Activate when the user says:
 - "vamos a grabar un vídeo"
 - "vamos a grabar un video"
 - "vamos a hacer un vídeo"
 - "vamos a hacer un video"
 
-The trigger starts a complete single-video production workflow. Do not assume a fixed 15-day or monthly content calendar.
+## Content-universe layer
 
-## Objective
+Before creating the video package:
 
-Turn one video request into a production-ready package for the user's Marvel/cinematic entertainment channel.
+1. Read the content universe and episode registry.
+2. If the user gives a topic, preserve it and find the best series and narrative connection.
+3. If the user gives no topic, identify the strongest current opportunity while considering open narrative threads.
+4. Avoid duplicating an existing episode unless the new angle is materially different.
+5. Assign the next episode ID and series position when appropriate.
+6. Give the episode:
+   - series
+   - episode number
+   - narrative role
+   - connection to a previous episode
+   - seed for a future episode
 
-## Workflow
+## Research and verification
 
-1. Research
-   - Check current Marvel, cinema, FilmTok and MovieTok trends when freshness matters.
-   - Prioritize primary sources for factual claims: official Marvel/Disney material, filmmaker/actor interviews, production statements and other first-party sources.
-   - Separate verified facts from interpretation.
+- Check current Marvel/cinema/FilmTok/MovieTok trends when freshness matters.
+- Prioritize primary sources: official Marvel/Disney material, actor/director interviews, production statements and first-party sources.
+- Separate verified facts from interpretation.
 
-2. Topic and angle
-   - Identify the strongest curiosity, surprise, contradiction, behind-the-scenes, deleted-scene, production-story or "how did I not know this?" angle.
-   - Avoid generic "Marvel facts" unless the fact has a strong story or visual payoff.
-   - Prefer angles that can be demonstrated visually.
+## Video production
 
-3. Hook
-   - Produce 2-3 hook candidates.
-   - Prefer direct, surprising claims over generic introductions.
-   - Select the strongest hook based on clarity, novelty and retention potential.
+Return:
+1. Video concept
+2. Series + episode number
+3. Why this angle
+4. Connection with previous content
+5. Best hook
+6. 2 alternative hooks
+7. Full short-form script
+8. Shot/B-roll plan
+9. CapCut edit plan
+10. Audio/sound direction
+11. Description
+12. Hashtags
+13. Sources/fact verification
+14. Seed for next episode
+15. Final recording checklist
 
-4. Script
-   - Write a short-form script suitable for TikTok/Reels.
-   - Default structure:
-     Hook -> escalation -> proof/visual reveal -> twist or payoff -> humorous/strong closing.
-   - Alternate the creator's face with visual resources when useful.
-   - Keep the language conversational and concise.
-   - Preserve the user's established humorous, ironic and cinematic tone.
+## "Día X"
 
-5. Visual plan
-   - Specify where the creator appears.
-   - Specify each B-roll/resource needed.
-   - Identify useful movie clips, interviews, stills, screenshots or graphics.
-   - Do not invent footage or claim a resource exists without verification.
+If the user says "toca día X" or "día X":
 
-6. Editing plan
-   - Provide a CapCut-oriented editing plan.
-   - Include cuts, zooms, on-screen text, emphasis, transitions and sound effects only where they improve retention.
-   - Recommend caption treatment and timing.
-   - Avoid over-editing when the story itself carries the retention.
-
-7. Audio
-   - Recommend suitable sound design and music direction.
-   - Prefer current or relevant CapCut/TikTok sounds when they materially help.
-   - Do not fabricate sound names or availability.
-
-8. Publishing package
-   - Provide a concise description.
-   - Provide relevant hashtags.
-   - Recommend a posting window when current data supports it.
-   - Do not assume a permanent posting calendar.
-
-9. Production handoff
-   Return the result in this order:
-   - Video concept
-   - Why this angle
-   - Best hook
-   - Alternative hooks
-   - Full script
-   - Shot/B-roll plan
-   - CapCut edit plan
-   - Audio/sound direction
-   - Description
-   - Hashtags
-   - Sources/fact verification
-   - Final recording checklist
+- Consult the active content universe.
+- Resolve the episode intended for that position.
+- Preserve continuity with previous and future episodes.
+- Do not revive the old fixed 15-day calendar unless it is explicitly restored by the user.
+- If there is no active episode plan for that day, propose the strongest next episode based on the universe rather than inventing prior progress.
 
 ## Quality rules
 
 - Never present an unverified production claim as fact.
-- Prefer primary sources for claims.
-- Optimize for viewer retention without sacrificing factual accuracy.
-- Do not force Marvel branding into a topic that does not support it.
-- Do not automatically create a calendar unless the user explicitly asks for one.
-- If the user supplies a topic, preserve it and optimize the angle instead of replacing it unnecessarily.
-- If the user does not supply a topic, research current opportunities and propose the strongest one.
+- Prefer primary sources.
+- Optimize retention without sacrificing accuracy.
+- Use continuity to encourage binge watching.
+- Do not force a series connection when the story does not support one.
+- Do not create a permanent calendar unless explicitly requested.
